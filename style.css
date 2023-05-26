@@ -1,0 +1,146 @@
+*{padding: 0;margin: 0;}
+:root{
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+    box-sizing: border-box;
+}
+body{
+    background-color:var(--body-bg-color);
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+main{
+    flex-basis: 70%;
+    order: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.projects{
+    display: flex;
+    gap: 10px;
+}
+.content{
+    flex: 1;
+}
+.content header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content p{
+    margin-bottom: 20px;
+}
+.content footer{
+    display: flex;
+    gap: 5px;
+}
+.content footer div{
+    display: flex;
+    gap: 10px;
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-post{
+    display: flex;
+    gap: 20px;
+}
+.profile-post h2{
+    font-size: 1rem;
+}
+.post-legend{
+    font-size: .7rem;
+    margin-bottom: 20px;
+}
+.profile-post img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile-post ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+}
+aside{
+    flex: 1;
+    order: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+section{
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    padding: 30px;
+}
+.profile{
+    text-align: center;
+    padding: 50px 30px;
+}
+.profile img{
+    width: 100px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social ul li, .social ul li a{
+    display: flex;
+    gap: 30px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.techs{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content:space-evenly;
+}
+.techs p{
+    width: 25%;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--bg-techs);
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+}
+.exp{
+    margin-top: 20px;
+}
+.exp dd, .certificates dd{
+    font-size: .8rem;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.certificates{
+    margin-top: 20px;
+}
